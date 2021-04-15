@@ -15,6 +15,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
     vendor/xiaomi/kenzo/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
     vendor/xiaomi/kenzo/proprietary/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8952 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8976 \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -23,6 +25,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/kenzo/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b00 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b01 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b02 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b03 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.mdt \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
+    vendor/xiaomi/kenzo/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
     vendor/xiaomi/kenzo/proprietary/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/kenzo/proprietary/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/kenzo/proprietary/lib/libRecoFace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libRecoFace.so \
