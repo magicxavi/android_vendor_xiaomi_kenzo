@@ -224,9 +224,3 @@ dex_import {
 	jars: ["proprietary/framework/qcrilhook.jar"],
 }
 
-dex_import {
-	name: "qti-telephony-common",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/qti-telephony-common.jar"],
-}
-
