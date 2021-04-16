@@ -361,21 +361,9 @@ android_app_import {
 }
 
 dex_import {
-	name: "QPerformance",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/QtiTelephonyServicelibrary.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 dex_import {
