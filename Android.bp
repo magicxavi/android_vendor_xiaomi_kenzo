@@ -63,6 +63,14 @@ cc_prebuilt_binary {
 	prefer: true,
 }
 
+cc_prebuilt_binary {
+	name: "wcnss_service",
+	owner: "xiaomi",
+	srcs: ["proprietary/bin/wcnss_service"],
+	check_elf_files: false,
+	prefer: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "vendor.display.color@1.0",
 	owner: "xiaomi",
